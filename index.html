@@ -99,18 +99,18 @@
 	</div>
 	<div class="row">
 		<div class="col-md-12 animation fadeIn">
-			<div id="map" style="width:500px;height:400px;"></div>
-	<script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=cfd35775f6bf0dffa892b726b367cc94"></script>
-	<script>
-		var container = document.getElementById('map');
-		var options = {
-			center: new daum.maps.LatLng(33.450701, 126.570667),
-			level: 3
-		};
+			<div id="map" style="width: 100%; margin-bottom:20px;"></div>
+			<script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=cfd35775f6bf0dffa892b726b367cc94"></script>
+			<script>
+				var container = document.getElementById('map');
+				var options = {
+					center: new daum.maps.LatLng(33.450701, 126.570667),
+					level: 3
+				};
 
-		var map = new daum.maps.Map(container, options);
-	</script>
-			<img src="images\map.jpeg" style="width: 100%; margin-bottom:20px;">
+				var map = new daum.maps.Map(container, options);
+			</script>
+		
 			<div class="de-icon circle small-size inline" style="background-color:#f0394d">
 				<i class="de-icon-address"></i>
 			</div>
