@@ -23,7 +23,12 @@
 <link href="css\preloader.css" rel="stylesheet" media="screen">
 <link href="css\style.css" rel="stylesheet" media="screen">
 </head>
-<span class="heartbeat">Loading...</span>
+<script type="text/javascript">
+$( document ).ready(function() {
+     $("#heartbeat").display("none");
+});
+</script>
+<span class="heartbeat" id = "heartbeat">Loading...</span>
 <body class="outside-bottom-bar-page">
 <section id="main-slider" class="flexslider fullscreen">
 <div class="slide-title-outter-wrapper">
